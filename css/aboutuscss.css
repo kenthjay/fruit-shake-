@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    background: #e9e9e9;
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-image: url("../images/Homepic.jpg");
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-logo {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #e9e9e9;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url("images/img/background_login.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero h1 {
+    color: #5c4ac7;
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+  }
+  
+  .hero p {
+    color: #5c4ac7;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background: #ffffff;
+    color: #5c4ac7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #b92a07;
+    color: #ffffff;
+  }
+  
+  /* Mission Section */
+  .mission {
+    background: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .mission h2 {
+    color: #5c4ac7;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .mission-points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .point {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .point h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .point p {
+    font-size: 14px;
+  }
+  
+  /* Features Section */
+  .features {
+    background: #e9e9e9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .features h2 {
+    color: #5c4ac7;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #5c4ac7;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 14px;
+  }
+  
+  .contact a {
+    color: #5c4ac7;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #5c4ac7;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-logo {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
+  
